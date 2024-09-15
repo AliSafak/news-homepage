@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container  {
+  width: 1110px;
+  margin-inline: auto;
+  margin-block:89px 127px ;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+.nav a:hover {
+  color: #f15d51;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgba(94, 96, 122, 1);
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.main-page {
+  margin-block: 55px 72px;
+  display: flex;
+  gap: 30px;
+}
+
+
+
+.main-left-side img {
+  width: 730px;
+}
+
+.main-left-side-explanation {
+  margin-top: 28px;
+  width: 730px;
+  display: flex;
+  gap: 30px;
+}
+
+/* .main-left-side-explanation h2:hover {
+  color: #e9a952;
+} */
+
+.main-left-side-explanation h1 {
+  font-family:"Inter" ;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 56px;
+}
+
+.left-explanation-paragraph a:hover {
+  background-color: #00001a;
+}
+
+.left-explanation { 
+  width: 350px;
+}
+.left-explanation-paragraph {
+  width: 350px;
+}
+
+.left-explanation-paragraph a h3:hover {
+  background-color: black;
+}
+
+.main-left-side-explanation p {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+ }
+
+ .main-left-side-explanation a h3 {
+  display: inline-block;
+  text-decoration: none;
+  background-color:#f15d51 ;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 4.375px;
+  text-align: center;  
+  padding:12px 33px ;
+  color: white;
+  margin-top: 29px;
+ }  
+
+
+ .main-right-side {
+  word-wrap: 350px;
+  height: 511px;
+  background-color: #00001a;
+  color: white;
+  padding-inline: 24px;
+
+ }
+
+ .main-right-side h1 {
+  padding-left: 0px;
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  color: rgba(233, 170, 82, 1);
+  margin-top: 32px;
+  margin-bottom: 3px;
+ }
+
+ .main-right-side h2 {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+ }
+
+ .main-right-side h3 {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(197, 198, 206, 1);
+ }
+
+ .main-right-side-exponation {
+  padding-bottom: 29px;
+ }
+
+ .main-right-side-exponation h2 {
+  color: white;
+ }
+
+ .main-right-side-exponation h2:hover {
+  color: rgba(233, 170, 82, 1);
+ }
+
+.main-right-side-exponation {
+  border-bottom: 1px solid rgba(94, 96, 122, 1);
+  padding-top: 31px;
+}
+
+.main-right-side-exponation:last-child {
+  border: none;
+}
+
+.footer {
+  width: 1110px;
+  display: flex;
+  gap: 30px;
+}
+
+.footer-down-part {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-down-part h1 {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;  
+  color:rgba(197, 198, 206, 1);
+  margin-bottom: 12px;
+}
+
+.footer-down-part a h3 {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  margin-bottom: 9px;
+  color: black;
+}
+
+.footer-down-part p {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color:rgba(94, 96, 122, 1);
+}
+
+.footer-down-part a h3:hover {
+  color:#f15d51 ;
+}
+
+
+.footer-down-part a, .main-right-side-exponation a {
+  text-decoration: none;
+}
+
+
+/* ben bu projede hoverlari yanlis kullandigimi fark ettim
+mesela a nin icerisindeki h3 un backgroundina vermem gerekiyor fakat ben 
+gidip de a ya komple veriyorum. Bu yuzden ise yaramiyor. */
